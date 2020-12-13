@@ -13,10 +13,6 @@ for b in buses:
 		while multiple < time:
 			multiple += period
 
-		print(period)
-		print(multiple)
-		print("==================")
-
 		if multiple < departure and multiple >= time:
 			departure = multiple
 			selected = period
